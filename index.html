@@ -1,0 +1,354 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&amp;family=Roboto:wght@400;500;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,700&family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>AGM İNŞAAT</title>
+  </head>
+  <body>
+    <div class="menu-modal">
+      <div class="menu-content">
+        <button class="menu-close">
+          <svg class="icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-Vector"></use>
+          </svg>
+        </button>
+        <nav class="menu-nav">
+          <ul>
+            <li><a href="#" class="link current">Studio</a></li>
+            <li><a href="#portfolio" class="link">Portfolio</a></li>
+            <li><a href="#contacts" class="link">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="menu-contacts">
+          <a href="tel:+110001111111" class="link">+11 (000) 111-11-11</a>
+          <a href="mailto:info@devstudio.com" class="link"
+            >info@devstudio.com</a
+          >
+        </address>
+        <div class="menu-social">
+          <a href="">
+            <svg class="icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-instagram"></use>
+            </svg>
+          </a>
+          <a href="">
+            <svg class="icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-twitter"></use>
+            </svg>
+          </a>
+          <a href="">
+            <svg class="icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-facebook"></use>
+            </svg>
+          </a>
+          <a href="">
+            <svg class="icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-linkedin"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <header class="top-line">
+      <div class="container header-container">
+        <img src="./src/logo.svg" alt="AGM-Logo" height="58" fill="#fff" />
+        <a href="#" id="logo">
+          AGM <br />
+          İNŞAAT
+        </a>
+        <svg class="menu-icon" width="24" height="24">
+          <use href="./images/icons.svg#icon-menu"></use>
+        </svg>
+        <nav>
+          <ul class="page-nav">
+            <li><a href="#" class="link current">Ana Sayfa</a></li>
+            <li><a href="#portfolio" class="link">Hakkımızda</a></li>
+            <li><a href="#contacts" class="link">Projeler</a></li>
+            <li><a href="#contacts" class="link">Hizmetlerimiz</a></li>
+            <li><a href="#contacts" class="link">İletişim</a></li>
+          </ul>
+        </nav>
+        <address>
+          <ul class="top-contacts">
+            <li>
+              <a href="tel:0212 853 7359" class="link">0212 853 73 59</a>
+            </li>
+            <li>
+              <a href="mailto:mbakioglu@agmdekor.com" class="link"
+                >mbakioglu@agmdekor.com</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="heroimage">
+        <video
+          class="background-vid"
+          autoplay
+          muted
+          loop
+          playsinline
+          onerror="this.style.display='none'"
+        >
+          <source src="./src/hero-vid.mp4" type="video/mp4" />
+        </video>
+        <div class="container hero-content">
+          <h1>Akıllı Çözümler, Modern Yapılar.</h1>
+          <button class="h-button" type="button" url="#contacts">
+            Bize Ulaşın
+          </button>
+        </div>
+      </section>
+
+      <section class="about-section">
+        <div class="container-about">
+          <div class="about-left">
+            <div class="section-subtitle">
+              <span></span>
+              <p>HAKKIMIZDA</p>
+            </div>
+            <h2>ŞİRKETİMİZ HAKKINDA <br />DAHA FAZLA BİLGİ EDİNİN</h2>
+          </div>
+          <div class="about-right">
+            <p class="bold-text">
+              Tüm inşaat işleri uzman ekiplerimizce yapılmaktadır.
+            </p>
+            <p>
+              20 yılı aşan iş tecrübemiz ile mevcut ihtiyaçlarınıza en uygun
+              çözümleri üretmek için hizmetinizdeyiz.
+            </p>
+            <button href="#" class="about-button">HAKKIMIZDA</button>
+          </div>
+        </div>
+      </section>
+      <!-- Team Section -->
+      <section class="projects-section">
+        <div class="section-subtitle2">
+          <span></span>
+          <p>PROJELERİMİZ</p>
+        </div>
+        <h2>ÇALIŞMALARIMIZA GÖZ ATIN</h2>
+        <div class="projects-list">
+          <div class="project-item" data-category="industry">
+            <img src="jaguare-garment.jpg" alt="Jaguare Garment Industry" />
+            <h3>Jaguare Garment Industry</h3>
+          </div>
+          <div class="project-item" data-category="buildings">
+            <img src="outbox-creatives.jpg" alt="Outbox Creatives Building" />
+            <h3>Outbox Creatives Building</h3>
+          </div>
+          <div class="project-item" data-category="residence">
+            <img src="slova-residence.jpg" alt="Slova Private Residence" />
+            <h3>Slova Private Residence</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section id="portfolio">
+        <div class="container">
+          <h2>Our Portfolio</h2>
+          <ul class="portfolio">
+            <li class="portfolio-card">
+              <div class="card-image-wrapper">
+                <img
+                  src="./images/img-5.jpg"
+                  srcset="./images/img-5.jpg 1x, ./images/img-5@x2.jpg 2x"
+                  alt="Banking App"
+                  width="360"
+                />
+                <div class="card-overlay">
+                  <p>
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
+              <h3>Banking App</h3>
+              <p>App</p>
+            </li>
+            <li class="portfolio-card">
+              <div class="card-image-wrapper">
+                <img
+                  src="./images/img-6.jpg"
+                  srcset="./images/img-6.jpg 1x, ./images/img-6@x2.jpg 2x"
+                  alt="Cashless Payment"
+                  width="360"
+                />
+                <div class="card-overlay">
+                  <p>
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
+              <h3>Cashless Payment</h3>
+              <p>Marketing</p>
+            </li>
+            <li class="portfolio-card">
+              <div class="card-image-wrapper">
+                <img
+                  src="./images/img-7.jpg"
+                  srcset="./images/img-7.jpg 1x, ./images/img-7@x2.jpg 2x"
+                  alt="Meditation App"
+                  width="360"
+                />
+                <div class="card-overlay">
+                  <p>
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
+              <h3>Meditation App</h3>
+              <p>App</p>
+            </li>
+            <li class="portfolio-card">
+              <div class="card-image-wrapper">
+                <img
+                  src="./images/img-8.jpg"
+                  srcset="./images/img-8.jpg 1x, ./images/img-8@x2.jpg 2x"
+                  alt="Taxi Service"
+                  width="360"
+                />
+                <div class="card-overlay">
+                  <p>
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
+              <h3>Taxi Service</h3>
+              <p>Marketing</p>
+            </li>
+            <li class="portfolio-card">
+              <div class="card-image-wrapper">
+                <img
+                  src="./images/img-9.jpg"
+                  srcset="./images/img-9.jpg 1x, ./images/img-9@x2.jpg 2x"
+                  alt="Screen Illustrations"
+                  width="360"
+                />
+
+                <div class="card-overlay">
+                  <p>
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
+              <h3>Screen Illustrations</h3>
+              <p>Design</p>
+            </li>
+            <li class="portfolio-card">
+              <div class="card-image-wrapper">
+                <img
+                  src="./images/img-10.jpg"
+                  srcset="./images/img-10.jpg 1x, ./images/img-10@x2.jpg 2x"
+                  alt="Online Courses"
+                  width="360"
+                />
+                <div class="card-overlay">
+                  <p>
+                    14 Stylish and User-Friendly App Design Concepts · Task
+                    Manager App · Calorie Tracker App · Exotic Fruit Ecommerce
+                    App · Cloud Storage App
+                  </p>
+                </div>
+              </div>
+              <h3>Online Courses</h3>
+              <p>Marketing</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="cont-footer">
+        <ul>
+          <li class="footer-first">
+            <a href="#" class="logo-footer"
+              ><span class="web">WEB</span>STUDIO</a
+            >
+            <p class="footer-text">
+              Increase the flow of customers and sales for your business with
+              digital marketing &amp; growth solutions.
+            </p>
+          </li>
+          <div class="social-footer">
+            <li>
+              <p>Social Media</p>
+              <div class="social">
+                <a href="">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+                <a href="">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+                <a href="">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+                <a href="">
+                  <svg class="icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </div>
+            </li>
+          </div>
+        </ul>
+        <form class="footer-form">
+          <label class="form-label">
+            Subscribe <br />
+            <input
+              class="footer-input"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
+          </label>
+          <button class="form-button" type="submit">
+            Subscribe
+            <svg class="icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-subscribe"></use>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>
