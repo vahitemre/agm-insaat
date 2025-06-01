@@ -4337,6 +4337,13 @@ fieldset:disabled .btn {
   background-color: rgba(0, 0, 0, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
+
+img.logo {
+  margin-top: -12px;
+  width: 160px;
+  margin-bottom: -10px;
+}
+
 .card-header:first-child {
   border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
 }
@@ -7010,7 +7017,7 @@ fieldset:disabled .btn {
   padding-bottom: 1rem !important;
 }
 .pb-4 {
-  padding-bottom: 1.5rem !important;
+  padding-bottom: 1rem !important;
 }
 .pb-5 {
   padding-bottom: 3rem !important;

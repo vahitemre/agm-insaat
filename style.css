@@ -691,7 +691,7 @@ a.text-hover:focus:after{
 }
 
 .navbar-nav {
-  padding-left: 13.5%;
+  margin-left: -7%;
 }
 
 /* dropdown style  */
@@ -785,6 +785,7 @@ a.text-hover:focus:after{
 .banner-image {
   height: 956px;
   object-fit: cover;
+  filter: brightness(60%);
 }
 
 .banner-title {
