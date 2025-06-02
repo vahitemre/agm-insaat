@@ -782,6 +782,10 @@ a.text-hover:focus:after{
   width: 70%;
 }
 
+#our-team .image-holder {
+  max-height: 145px;
+}
+
 .banner-image {
   height: 956px;
   object-fit: cover;

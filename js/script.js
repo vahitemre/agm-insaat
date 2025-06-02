@@ -7,11 +7,12 @@
   var initScrollNav = function() {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 900) {
+    if (scroll >= 700) {
       $('.navbar').addClass("bg-black");
     }else{
       $('.navbar').removeClass("bg-black");
     }
+    
   }
 
   $(window).scroll(function() {    
