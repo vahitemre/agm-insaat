@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html
+  class="js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface no-generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"
+  
+>
   <head>
-    <title>AGM İNŞAAT</title>
+    <title>Boldiz Contractor</title>
     <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="./images/logo.svg" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
@@ -20,233 +22,158 @@
     <link rel="stylesheet" type="text/css" href="aos/aos.css" />
     <link href="css/date-time-picker-component.min.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&amp;family=Oswald:wght@300;400;500;600;700&amp;display=swap"
       rel="stylesheet"
     />
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
   </head>
-  <body data-bs-spy="scroll" data-bs-target="#header-nav" tabindex="0">
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
-      <symbol
-        xmlns="http://www.w3.org/2000/svg"
-        id="navbar-icon"
-        viewBox="0 0 16 16"
-      >
-        <path
-          fill-rule="evenodd"
-          d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
-        />
-      </symbol>
-      <symbol
-        xmlns="http://www.w3.org/2000/svg"
-        id="icon-arrow-left"
-        viewBox="0 0 15 15"
-      >
-        <path
-          fill="currentColor"
-          fill-rule="evenodd"
-          d="m2.707 8l3.147 3.146l-.708.707L.793 7.5l4.353-4.354l.708.708L2.707 7H14v1H2.707Z"
-          clip-rule="evenodd"
-        />
-      </symbol>
-      <symbol
-        xmlns="http://www.w3.org/2000/svg"
-        id="icon-arrow-right"
-        viewBox="0 0 15 15"
-      >
-        <path
-          fill="currentColor"
-          fill-rule="evenodd"
-          d="M9.854 3.146L14.207 7.5l-4.353 4.354l-.708-.708L12.293 8H1V7h11.293L9.146 3.854l.708-.708Z"
-          clip-rule="evenodd"
-        />
-      </symbol>
-    </svg>
-    <div id="bodywrap" class="overflow-hidden">
-      <header id="header" class="site-header position-absolute">
-        <nav
-          id="header-nav"
-          class="navbar navbar-expand-lg p-3 container-fluid position-fixed"
-        >
-          <div class="container-lg">
-            <a class="navbar-brand" href="index.html">
-              <img src="images/main-logo.png" class="logo" width="120" />
-            </a>
-            <button
-              class="navbar-toggler d-flex d-lg-none order-3 p-2 shadow-none"
-              type="button"
-              data-bs-toggle="offcanvas"
-              data-bs-target="#bdNavbar"
-              aria-controls="bdNavbar"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <svg class="navbar-icon">
-                <use xlink:href="#navbar-icon"></use>
-              </svg>
-            </button>
-            <div
-              class="offcanvas offcanvas-end"
-              tabindex="-1"
-              id="bdNavbar"
-              aria-labelledby="bdNavbarOffcanvasLabel"
-            >
-              <div class="offcanvas-header px-4 pb-0">
-                <button
-                  type="button"
-                  class="btn-close btn-close-black"
-                  data-bs-dismiss="offcanvas"
-                  aria-label="Close"
-                  data-bs-target="#bdNavbar"
-                ></button>
-              </div>
-              <div class="offcanvas-body">
-                <ul
-                  id="navbar"
-                  class="navbar-nav text-uppercase justify-content-lg-center justify-content-md-end align-items-center flex-grow-1 text-hover"
-                >
-                  <li class="nav-item me-5">
-                    <a
-                      class="nav-link light text-uppercase active p-0"
-                      href="#intro"
-                      >Ana Sayfa</a
-                    >
-                  </li>
-                  <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase p-0" href="#about"
-                      >Hakkımızda</a
-                    >
-                  </li>
 
-                  <li class="nav-item me-5">
-                    <a
-                      class="nav-link light text-uppercase p-0"
-                      href="#our-services"
-                      >HİZMETLERİMİZ</a
-                    >
-                  </li>
-                  <li class="nav-item me-5">
-                    <a
-                      class="nav-link light text-uppercase p-0"
-                      href="#projects"
-                      >PROJELERİMİZ</a
-                    >
-                  </li>
-                  <li class="nav-item me-5">
-                    <a class="nav-link light text-uppercase p-0" href="#contact"
-                      >İLETİŞİM</a
-                    >
-                  </li>
-                  <li class="nav-item dropdown me-5"></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </header>
-      <section id="intro">
-        <div class="image-holder position-relative">
-          <video
-            class="banner-image banner-video"
-            autoplay=""
-            muted=""
-            loop=""
-            playsinline=""
-            onerror="this.style.display='none'"
-          >
-            <source src="./images/hero-video.mp4" type="video/mp4" />
-          </video>
-          <div class="overlay"></div>
-        </div>
-        <div class="container-lg">
-          <div class="banner-content position-absolute" data-aos="fade-up">
-            <h1 class="banner-title light text-uppercase fw-bold">
-              Akıllı Çözümler, Modern Yapılar.
-            </h1>
-            <a
-              href="project.html"
-              class="btn-slide btn-medium btn-light hover-slide-right text-uppercase mt-5"
-            >
-              <span>BİZE ULAŞIN</span>
-            </a>
-          </div>
-        </div>
-      </section>
-      <section id="about" class="padding-large bg-gray-200">
-        <div class="container" data-aos="fade-up" data-aos-duration="2000">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="section-header">
-                <h2 class="text-uppercase mb-3 left-pattern">HAKKIMIZDA</h2>
-                <h3 class="text-uppercase">
-                  ŞİRKETİMİZ HAKKINDA DAHA FAZLA BİLGİ EDİNİN
-                </h3>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <p>
-                <strong class="pb-2 d-block"
-                  >Tüm inşaat işleri uzman ekiplerimizce yapılmaktadır.</strong
-                >
-                20 yılı aşan iş tecrübemiz ile mevcut ihtiyaçlarınıza en uygun
-                çözümleri üretmek için hizmetinizdeyiz.
-              </p>
-              <a
-                href="about.html"
-                class="btn-slide btn-medium btn-dark hover-slide-right text-uppercase mt-5"
+  <body
+    data-bs-spy="scroll"
+    data-bs-target="#header-nav"
+    tabindex="0"
+    data-aos-easing="ease"
+    data-aos-duration="2500"
+    data-aos-delay="0"
+  >
+    
+    <div id="bodywrap" class="overflow-hidden">
+        <body data-bs-spy="scroll" data-bs-target="#header-nav" tabindex="0">
+            <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+              <symbol
+                xmlns="http://www.w3.org/2000/svg"
+                id="navbar-icon"
+                viewBox="0 0 16 16"
               >
-                <span>HAKKIMIZDA</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section
-        id="our-services"
-        class="jarallax d-flex align-items-center"
-        style="
-          background-image: url(images/bg-image1.jpg);
-          width: 100%;
-          height: 535px;
-          background-repeat: no-repeat;
-        "
-      >
-        <div class="container mt-5" data-aos="fade-up" data-aos-duration="2000">
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <h3 class="light fs-1">Keşif</h3>
-                <p class="light">
-                  İnşa edilen yapının ne kadara mal olacağını bilmek hem yapı
-                  sahibi hemde ihaleyi alacak olan yükleniciler açısından önem
-                  arz etmektedir. Bu yüzden öncelikle keşif yapıp yapılacak işin
-                  maliyeti hesaplıyoruz.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <h3 class="light fs-1">PLANLAMA VE PROJE</h3>
-                <p class="light">
-                  Proje ulaşılmak istenen sonuç, proje planlama ise ulaşılması
-                  hedeflenen sonucun planlamasıdır. Planlama akılcı bir girişim
-                  ve yönetim biçimi olup yapılan plana göre karar vermenizde ve
-                  seçim yapmanıza yardımcı oluyoruz.
-                </p>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="service-item">
-                <h3 class="light fs-1">UYGULAMA</h3>
-                <p class="light">
-                  Bütün hazırlıklar bittikten sonra uygulamaya geçip istenilen
-                  binayı Müteahhitliğini üstlenerek inşa ediyoruz.
-                </p>
-              </div>
+                <path
+                  fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+                />
+              </symbol>
+              <symbol
+                xmlns="http://www.w3.org/2000/svg"
+                id="icon-arrow-left"
+                viewBox="0 0 15 15"
+              >
+                <path
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  d="m2.707 8l3.147 3.146l-.708.707L.793 7.5l4.353-4.354l.708.708L2.707 7H14v1H2.707Z"
+                  clip-rule="evenodd"
+                />
+              </symbol>
+              <symbol
+                xmlns="http://www.w3.org/2000/svg"
+                id="icon-arrow-right"
+                viewBox="0 0 15 15"
+              >
+                <path
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  d="M9.854 3.146L14.207 7.5l-4.353 4.354l-.708-.708L12.293 8H1V7h11.293L9.146 3.854l.708-.708Z"
+                  clip-rule="evenodd"
+                />
+              </symbol>
+            </svg>
+            <div id="bodywrap" class="overflow-hidden">
+              <header id="header" class="site-header position-absolute">
+                <nav
+                  id="header-nav"
+                  class="navbar navbar-expand-lg p-3 container-fluid position-fixed"
+                >
+                  <div class="container-lg">
+                    <a class="navbar-brand" href="index.html">
+                      <img src="images/main-logo.png" class="logo" width="120" />
+                    </a>
+                    <button
+                      class="navbar-toggler d-flex d-lg-none order-3 p-2 shadow-none"
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#bdNavbar"
+                      aria-controls="bdNavbar"
+                      aria-expanded="false"
+                      aria-label="Toggle navigation"
+                    >
+                      <svg class="navbar-icon">
+                        <use xlink:href="#navbar-icon"></use>
+                      </svg>
+                    </button>
+                    <div
+                      class="offcanvas offcanvas-end"
+                      tabindex="-1"
+                      id="bdNavbar"
+                      aria-labelledby="bdNavbarOffcanvasLabel"
+                    >
+                      <div class="offcanvas-header px-4 pb-0">
+                        <button
+                          type="button"
+                          class="btn-close btn-close-black"
+                          data-bs-dismiss="offcanvas"
+                          aria-label="Close"
+                          data-bs-target="#bdNavbar"
+                        ></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <ul
+                          id="navbar"
+                          class="navbar-nav text-uppercase justify-content-lg-center justify-content-md-end align-items-center flex-grow-1 text-hover"
+                        >
+                          <li class="nav-item me-5">
+                            <a
+                              class="nav-link light text-uppercase active p-0"
+                              href="#intro"
+                              >Ana Sayfa</a
+                            >
+                          </li>
+                          <li class="nav-item me-5">
+                            <a class="nav-link light text-uppercase p-0" href="#about"
+                              >Hakkımızda</a
+                            >
+                          </li>
+        
+                          <li class="nav-item me-5">
+                            <a
+                              class="nav-link light text-uppercase p-0"
+                              href="#our-services"
+                              >HİZMETLERİMİZ</a
+                            >
+                          </li>
+                          <li class="nav-item me-5">
+                            <a
+                              class="nav-link light text-uppercase p-0"
+                              href="#projects"
+                              >PROJELERİMİZ</a
+                            >
+                          </li>
+                          <li class="nav-item me-5">
+                            <a class="nav-link light text-uppercase p-0" href="#contact"
+                              >İLETİŞİM</a
+                            >
+                          </li>
+                          <li class="nav-item dropdown me-5"></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </nav>
+              </header>
+      <section id="intro" style="background: url(images/bg-image1.jpg)">
+        <div class="container pt-5 aos-init aos-animate" data-aos="fade-up">
+          <div class="row py-5">
+            <div class="banner-content my-5 py-5">
+              <h1 class="banner-title light text-uppercase fw-bold">Projeler</h1>
+              <nav class="breadcrumb mt-3">
+                <a class="breadcrumb-item text-white" href="index.html">Ana Sayfa</a>
+                <span
+                  class="breadcrumb-item active text-white"
+                  aria-current="page"
+                  >/ Projeler</span
+                >
+              </nav>
             </div>
           </div>
         </div>
@@ -531,7 +458,8 @@
         </div>
       </footer>
     </div>
-
+    
+    
     <script src="js/jquery-1.11.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script type="text/javascript" src="aos/aos.js"></script>
