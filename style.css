@@ -1091,3 +1091,7 @@ iconify-icon.services-icon {
   color: var(--accent-color);
   transition: all 0.5s ease-in;
 }
+
+button:disabled {
+  cursor: not-allowed;
+}
