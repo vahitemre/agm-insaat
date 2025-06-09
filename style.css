@@ -799,8 +799,16 @@ a.text-hover:focus:after{
   width: 70%;
 }
 
-#our-team .image-holder {
-  max-height: 145px;
+@media (min-width: 768px) {
+  #our-team .image-holder {
+    max-height: 145px;
+  }
+}
+
+@media (max-width: 767px) {
+  #our-team .image-holder {
+    max-height: 300px;
+  }
 }
 
 .banner-image {
